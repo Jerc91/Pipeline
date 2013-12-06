@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Pipeline</title>
+    <meta charset="utf-8" /> 
+    <link href="assets/css/controls/pipeline.min.css" rel="stylesheet" />
+    <script src="assets/js/jquery-2.0.3.min.js"></script>
+    <script src="assets/js/hogan-2.0.0.min.js"></script>
+    <script id="templatePipeline" type="text/html">
+        <a class="btnLeft fa fa-chevron-left fa-2x"></a>
+        <a class="btnRight fa fa-chevron-right fa-2x"></a>
+        <ul class="pipeline">
+            {{#list}}
+        <li>
+            <div class="content">
+                <span>{{Name}}</span>
+                <a class="add" href="{{ActionLink}}{{Id}}">+</a>
+            </div>
+            <div class="second">
+                <span>{{Candidates}}</span>
+                <i class="panel"></i>
+            </div>
+        </li>
+            {{/list}}
+        </ul>
+    </script>
+    <script src="assets/js/controls/pipeline.min.js"></script>
+</head>
+<body>
+    <section>
+        <h2>Pipeline</h2>
+        <article id="contentPipeline" class="contentPipeline">
+        </article>
+    </section>
+</body>
+</html>
