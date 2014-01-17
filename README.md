@@ -5,7 +5,7 @@ Control to show process tracking
 
 Getting Started
 ---------------
-The tools has a dependency on [jQuery 1.9+][jQuery.js], which must be loaded before *[js-utils][jherax.js]*.<br>
+The tools has a dependency on [jQuery 1.9+](http://code.jquery.com/jquery-1.10.2.min.js), which must be loaded before *[js-utils][jherax.js]*.<br>
 Also require some [CSS][jherax.css] for tooltip elements and other stuff.<br>
 Some functions depend on [jQuery.UI][jQuery.ui]<br><br>
 The namespace is `js.utils`, so we must use it to access the methods exposed.<br>
